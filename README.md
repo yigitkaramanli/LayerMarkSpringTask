@@ -91,3 +91,8 @@ The app will start running at <http://localhost:8080>
   "Author_id" : 1
 }
 ```
+
+### Personal Notes
+
+* This was my first time ever working with Spring, or Java in general. Thus there might be some mistakes and practices I did not use. I believe everything will get better with practice.
+* More filtering options can be added.
