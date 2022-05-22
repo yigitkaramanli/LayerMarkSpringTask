@@ -46,7 +46,7 @@ The app will start running at <http://localhost:8080>
 | GET    | /api/book/getall                       | Get All Books                                                 |                    |
 | DELETE | /api/book/delete/{id}                  | Delete Book with id                                           |                    |
 | POST   | /api/book/create                       | Create Book                                                   | [JSON](#bookcreate) |
-| POST   | /api/author/createBookWithAuthor       | Create Book and assign Author with id to it                   | [JSON](#bookcreatewithauthor) |
+| POST   | /api/book/createBookWithAuthor       | Create Book and assign Author with id to it                   | [JSON](#bookcreatewithauthor) |
 | GET    | /api/book/{id}                         | Get Book with id                                              |                    |
 | PUT    | /api/book/{book_id}/author/{author_id} | Add Author with author_id to Book with book_id's authors      |                    |
 | DELETE | /api/book/{book_id}/author/{author_id} | Remove Author with author_id from Book with book_id's authors |                    |
